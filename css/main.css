@@ -1,0 +1,55 @@
+:root {
+  --main-color-decor: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --basic-white: #ffffff;
+  --bckrg-grey: #2f303a;
+  --bckgr-milk: #f5f4fa;
+  --icon-svg-color: #afb1b8;
+  --trans-general: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header-line {
+  border-bottom: 1px solid #ececec;
+} /*# sourceMappingURL=main.css.map */
