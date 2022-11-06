@@ -1,8 +1,6 @@
 .examples h2 {
   color: $title-color;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  @include text-style(700, 18px, 2);
   letter-spacing: 0.06em;
 }
 .portffolio-title-about {
@@ -42,9 +40,7 @@
   top: 100%;
   left: 0;
   padding: 63px 24px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
+  @include text-style(400, 18px, 1.55);
   color: $basic-white;
   background: rgba(33, 150, 243, 0.8);
 }

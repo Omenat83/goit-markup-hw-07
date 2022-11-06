@@ -7,10 +7,9 @@
   & h3 {
     color: $title-color;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-  }
+    @include text-style(700, 14px, 1.14);
+    }
+    
   & p {
     font-size: 14px;
     line-height: 1.71;
@@ -27,7 +26,7 @@
   content: "";
   width: 270px;
   height: 120px;
-  background-color: var(--bckgr-milk);
+  background-color: $bckgr-milk;
   border-radius: 4%;
   margin-bottom: 30px;
   background-repeat: no-repeat;

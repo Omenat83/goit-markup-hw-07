@@ -18,9 +18,7 @@ padding-bottom: 200px;
 .order-title {
 color: $basic-white;
 text-transform: uppercase;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
+@include text-style(900, 44px, 1.36);
 letter-spacing: 0.06em;
 margin-bottom: 30px;
 }

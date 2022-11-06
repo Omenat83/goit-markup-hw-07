@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--bckrg-grey);
+  background-color: $bckrg-grey;
   padding: 60px 0;
 }
 .footer-main-left {
@@ -72,7 +72,7 @@
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
-  color: var(--main-color-decor);
+  color: $main-color-decor;
 }
 .footer-main-right {
   display: flex;

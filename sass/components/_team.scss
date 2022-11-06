@@ -14,10 +14,8 @@
   padding: 30px 0;
 }
 .team-member__name {
-  color: var(--title-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  color: $title-color;
+  @include text-style(500, 16px, 1.19);
   margin-bottom: 10px;
 }
 .team-member__profession {
