@@ -1,4 +1,15 @@
 @import './utils/variables';
 @import './base/reset';
 @import './base/hidden';
+@import './base/general';
+@import './layouts/buttons';
+@import './layouts/logo';
 @import './layouts/header';
+@import'./components/hero';
+@import './layouts/modal';
+@import './components/feature';
+@import './components/products';
+@import './components/team';
+@import './components/examples';
+@import './components/clients';
+@import './layouts/footer';
