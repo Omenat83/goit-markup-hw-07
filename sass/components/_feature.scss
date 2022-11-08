@@ -3,19 +3,14 @@
   display: flex;
   gap: 30px;
 }
-.feature {
-  & h3 {
-    color: $title-color;
-    text-transform: uppercase;
-    @include text-style(700, 14px, 1.14);
-    }
-    
-  & p {
-    font-size: 14px;
-    line-height: 1.71;
-  }
+.feature__text {
+  font-size: 14px;
+  line-height: 1.71;
 }
-.feature-title {
+.feature__title {
+  color: $title-color;
+  text-transform: uppercase;
+  @include text-style(700, 14px, 1.14);
   margin-bottom: 10px;
 }
 .feature__icon {
@@ -23,15 +18,15 @@
   flex-direction: column;
 
   &::before {
-  content: "";
-  width: 270px;
-  height: 120px;
-  background-color: $bckgr-milk;
-  border-radius: 4%;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: $bckgr-milk;
+    border-radius: 4%;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 }
 .feature__icon--radar::before {
   background-image: url(../images/antenna.svg);

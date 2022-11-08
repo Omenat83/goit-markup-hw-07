@@ -6,22 +6,17 @@
   display: flex;
   gap: 70px;
   align-items: baseline;
-
-  & > div {
-    width: 231px;
-  }
-  & > div.footer-soc {
-    width: 206px;
-  }
+}
+.footer-main-left--left {
+  width: 231px;
+}
+.footer-main-left--right {
+  width: 206px;
 }
 .footer-main {
   display: flex;
   gap: 93px;
   align-items: baseline;
-
-& a.make-block {
-  margin-bottom: 20px;
-}
 }
 .footer-soc-main {
   display: flex;
@@ -47,20 +42,20 @@
   fill: $basic-white;
   transition: background-color $trans-general;
 
-&:hover,
-&:focus {
-  background-color: $main-color-decor;
-}
+  &:hover,
+  &:focus {
+    background-color: $main-color-decor;
+  }
 }
 .contacts {
   font-style: normal;
   text-decoration: none;
+  margin-top: 20px;
 }
-.contacts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
+.contacts-list:not(:last-child) {
+  margin-bottom: 9px;
 }
+
 .footer-contacts {
   color: $basic-white;
   font-size: 14px;
@@ -84,7 +79,7 @@
   padding-left: 16px;
   /* margin-right: 12px; */
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--bckrg-grey);
+  background-color: $bckrg-grey;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;

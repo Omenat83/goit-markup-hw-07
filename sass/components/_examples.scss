@@ -25,7 +25,8 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 }
-.example-project:hover .example-project-about {
+.example-project:hover .example-project-about,
+.example-project:focus .example-project-about {
   transform: translateY(-100%);
 }
 .example-project-pict {

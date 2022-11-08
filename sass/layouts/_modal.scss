@@ -84,11 +84,11 @@
 }
 .modal-comment:focus-within,
 .modal-input-wrap:focus-within > .modal-input {
-  border: 1px solid var(--main-color-decor);
+  border: 1px solid $main-color-decor;
   border-radius: 4px;
 }
 .modal-input-wrap:focus-within > .modal-input-icon {
-  fill: var(--main-color-decor);
+  fill: $main-color-decor;
 }
 .modal-check {
   display: flex;
@@ -100,7 +100,7 @@
   line-height: 1.71;
   fill: transparent;
 
-  & span {
+  & .test {
     display: flex;
     align-items: center;
     margin-right: 7px;
